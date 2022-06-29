@@ -1,0 +1,40 @@
+{
+  "name": "@notwoods/default-map",
+  "version": "1.0.0",
+  "description": "A Map subclass that automatically adds missing values",
+  "license": "MIT",
+  "repository": "NotWoods/default-map",
+  "author": {
+    "name": "Tiger Oakes",
+    "email": "contact@tigeroakes.com",
+    "url": "https://tigeroakes.com"
+  },
+  "type": "module",
+  "module": "index.js",
+  "exports": "./index.js",
+  "types": "./index.js",
+  "engines": {
+    "node": ">=14.16"
+  },
+  "scripts": {
+    "test": "ava"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "keywords": [
+    "map",
+    "default",
+    "defaultmap",
+    "default-map",
+    "defaultdict",
+    "default-dict",
+    "collections",
+    "with default"
+  ],
+  "devDependencies": {
+    "ava": "^4.3.0"
+  },
+  "sideEffects": false
+}
